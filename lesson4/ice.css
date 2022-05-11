@@ -1,0 +1,47 @@
+body {
+    background-color: #FCA6C9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.shrek{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shrek h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.white {
+    color: white;
+}
+
+.coolFont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shrek ol {
+    font-weight: bold;
+    text-align: left;
+    line-height: 200%;
+    width: 450px;
+}
+
+.shrek img {
+    width: 200px;
+}
+
+.quotation {
+    font-size: 40px;
+}
+
+footer p{
+    margin: 4px auto;
+}
+
+h1:hover {
+    color: black;
+}
