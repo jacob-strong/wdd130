@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #224952;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -39,21 +42,36 @@ main section {
 }
 
 body {
-  background-color: #D7B49E;
+    background-color: #D7B49E;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 ;
 }
 
 header {
     background-color: #05A8AA;
+    font-family: 'EB Garamond', serif;
 }
 
 footer {
     background-color: #05A8AA;
+    padding: 35px;
+    margin-top: 200px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .book {
     background-color: #B8D5B8;
     color: #224952;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -65,6 +83,10 @@ footer {
     background-color: #B8D5B8;
     color: #224952;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -74,10 +96,15 @@ footer {
 
 .msg {
     background-color: #B8D5B8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .home-title {
     color: #224952;
+    font-family: Papyrus, fantasy;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -86,10 +113,13 @@ h4 {
 
 .msg h2 {
     color: #224952;
+    font-family: Papyrus, fantasy;
 }
 
 .msg p {
     color: #224952 ;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -110,5 +140,33 @@ footer h3 a:hover {
 }
 
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #224952;
+}
+main section img {
+    box-sizing: border-box;
 }
