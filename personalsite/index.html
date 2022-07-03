@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div id="content">
     <header>
-        <a id="logo_link" href="index.html">
+        <a class="logo_link" href="index.html">
             <img class="logo" src="images/logo.png" alt="Great Parks Logo">
         </a>
         <nav>
@@ -20,27 +21,44 @@
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/hiking-on-mountain.jpg" alt="Hiking on Mountain">
+            <img id="hero-img" src="images/hiking-on-mountain.png" alt="Hiking on Mountain">
         </div>
         <section id="hero-msg">
-            <h1 class="home-title">"I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone."</h1>
-            <h1 class="quote">- Gandalf, The Hobbit</h1>
+            <h1 class="hero-title">"I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone."</h1>
+            <h1 class="hero-quote">- Gandalf, The Hobbit</h1>
             <div class="hero-button">
                 <a class="start" href="howitworks.html">Start Your Journey</a>
             </div>
         </section>
     </div>
-    <main>
+    <main class="home-grid">
         <div class="site-purpose">
             <h1>Grand Parks is a simple solution to fill your outdoor adventure needs. We provide planning tools, expert guides, and suggested equipment to help you best plan your trip.</h1>
+            <div class="howitworks-button">
+                <a class="button" href="howitworks.html">How it Works</a>
+            </div>
         </div>
         <div class="locations">
-            <img class="bottom-img" src="images/hiking-with-trees.jpg" alt="Hiking in Forest">
             <h1>We support a variety of locations around Arizona and Utah, including locations such as the Grand Canyon, Zion National Park, and Bryce Canyon</h1>
+        </div>
+        <section class="grand-icon">
+             <img class="icon-img" src="images/grand-canyon-icon.png" alt="Grand Canyon Icon">
+        </section>
+        <section class="bryce-icon">
+            <img class="icon-img" src="images/bryce-canyon-icon.png" alt="Bryce Canyon Icon">
+        </section>
+        <section class="zion-icon">
+            <img class="icon-img" src="images/zion-icon.png" alt="Zion Icon">
+        </section>
+        <div class="locations-button">
+            <a class="button" href="locations.html">Locations</a>
         </div>
     </main>
     <footer>
-        <h3>Great Parks &copy; 2022 - Jacob Strong</h3>
+        <a class="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Grand Parks Logo">
+        </a>
+        <h3>Grand Parks &copy; 2022 - Jacob Strong</h3>
         <h3><a href="site-plan.html">Site Plan</a></h3>
         <h3><a href="contactus.html">Contact Us</a></h3>
         <div class="social">
@@ -55,5 +73,6 @@
             </a>
         </div>
     </footer>
+    </div>
 </body>
 </html>
