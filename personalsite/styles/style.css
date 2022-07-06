@@ -68,7 +68,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 175px;
+    margin-top: 125px;
     font-family: Papyrus, fantasy;
 }
 
@@ -136,20 +136,40 @@ nav a:hover {
 
 .icon-img {
     border: 10px solid #302f4e;
-    transition: transform .5s;
     box-shadow: 5px 5px 10px #ee8968;
 }
 
 .grand-icon {
     grid-column: 2/4;
+    border: 10px solid #302f4e;
+    box-shadow: 5px 5px 10px #ee8968;
+}
+
+.grand-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 .bryce-icon {
     grid-column: 5/7;
+    border: 10px solid #302f4e;
+    box-shadow: 5px 5px 10px #ee8968;
+}
+
+.bryce-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 .zion-icon {
     grid-column: 8/10;
+    border: 10px solid #302f4e;
+    box-shadow: 5px 5px 10px #ee8968;
+}
+
+.zion-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 .locations-button {
