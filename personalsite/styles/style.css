@@ -128,12 +128,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.locations{
-    grid-column: 2/10;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
 .icon-img {
     border: 10px solid #302f4e;
     box-shadow: 5px 5px 10px #ee8968;
@@ -273,4 +267,84 @@ footer .social img {
 
 .grand-box:hover .location-body, .zion-box:hover .location-body, .bryce-box:hover .location-body {
     opacity: 1;
+}
+
+
+
+.howitworks-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.howitworks-title {
+    text-align: center;
+    color: aliceblue;
+}
+
+.step1 {
+    grid-row: 1/2;
+}
+
+.step2 {
+    grid-row: 2/3;
+}
+
+.step3 {
+    grid-row: 3/4;
+}
+
+.step1-num {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: Papyrus, fantasy;
+    font-size: 75px;
+    margin-top: 30px;
+}
+
+.step1-content {
+    grid-column: 3/6;
+    grid-row: 1/2;
+    font-family: 'Anek Latin Regular 400', sans-serif;
+    margin-top: 30px;
+    padding-top: 10%;
+}
+
+.step2-num {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: Papyrus, fantasy;
+    font-size: 75px;
+}
+
+.step2-content {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    font-family: 'Anek Latin Regular 400', sans-serif;
+    padding-top: 10%;
+}
+
+.step3-num{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-family: Papyrus, fantasy;
+    font-size: 75px;
+}
+
+.step3-content {
+    grid-column: 3/6;
+    grid-row: 3/4;
+    font-family: 'Anek Latin Regular 400', sans-serif;
+    padding-top: 10%;
+}
+
+.locations{
+    grid-column: 1/7;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+.bottom-img {
+    width: 100%;
+    margin-bottom: -50px;
 }
